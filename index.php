@@ -70,10 +70,16 @@ require_once __DIR__ . '/layout/header.php';
 
   <header class="social">
     <div class="container">
-      <!-- <div class="location">
-        <img src="images/icon_location.webp" alt="location icon">
-        <p>Kantanta, Nkana East, Kitwe</p>
-      </div> -->
+      <div class="logo">
+        <!-- <img src="images/logo.webp" alt="Liener company logo"> -->
+        <h3>Liener investments</h3>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Sika</a></li>
+        </ul>
+      </nav>
       <div class="icons">
         <a href="#"><img src="images/icon_facebook.png" alt="facebook url"></a>
         <a href="#"><img src="images/icon_instagram.webp" alt="facebook url"></a>
@@ -89,6 +95,7 @@ require_once __DIR__ . '/layout/header.php';
   <main>
 
     <section class="index__hero">
+     
       <div class="swiper">
         <div class="swiper-wrapper">
 
@@ -99,8 +106,8 @@ require_once __DIR__ . '/layout/header.php';
             <div class="swiper-slide-content">
               <div class="swiper-slide-text">
 
-                <h2 class="swiper-slide-title">Let's create a solution for you</h2>
-                <p class="swiper-slide-sub">Our experts are ready to work for you and design the best solution for your needs</p>
+                <h2 class="swiper-slide-title">Building Excellence Starts Here</h2>
+                <p class="swiper-slide-sub">Your Trusted Partner for Quality Construction Supplies</p>
               </div>
             </div>  
           </div>
@@ -112,8 +119,8 @@ require_once __DIR__ . '/layout/header.php';
           <div class="swiper-slide-content">
             <div class="swiper-slide-text">
 
-              <h2 class="swiper-slide-title">In the midst of chaos. We rise to the occasion.</h2>
-              <p class="swiper-slide-sub">High professionalism. We are committed ourselves to you</p>
+              <h2 class="swiper-slide-title">Unleash Construction Potential</h2>
+              <p class="swiper-slide-sub">Premium Supplies for Every Project</p>
             </div>
           </div>
         </div>
@@ -125,8 +132,8 @@ require_once __DIR__ . '/layout/header.php';
           <div class="swiper-slide-content">
             <div class="swiper-slide-text">
 
-              <h2 class="swiper-slide-title">Insurance brokering and risk protection.</h2>
-              <p class="swiper-slide-sub">Giving individuals and businesses peace of mind. Try us today.</p>
+              <h2 class="swiper-slide-title">Crafting Foundations, Building Futures</h2>
+              <p class="swiper-slide-sub">Discover the Finest Construction Materials for Your Vision.</p>
             </div>
           </div>
         </div>

@@ -1,11 +1,11 @@
 <footer class="footer">
 
-  <h2>MESSRS CHRISTOPHER & FRIGHTONE</h2>
+  <h2>LIENER INVESTMENTS</h2>
 
   <div class="main">
 
     <div class="logo">
-      <img data-aos="fade-down" data-aos-duration="3000" src="" alt="company logo">
+      <img data-aos="fade-down" data-aos-duration="3000" src="images/logo_white_bg.webp" alt="company logo" loading="lazy">
       <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Proven Excellence, Trusted Advocacy."</h3>
     </div>
 
