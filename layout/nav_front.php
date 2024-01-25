@@ -1,13 +1,16 @@
-<nav class="nav__admin">
+<nav class="nav__main">
     <ul>
       <li>
         <a href="index.php">Home</a>
       </li>
       <li>
-        <a href="products.php">Products</a>
+        <a href="#">Sika</a>
       </li>
       <li>
-        <a href="login.php">Login</a>
+        <a href="#">Verni</a>
+      </li>
+      <li>
+        <a href="#">Newsletter</a>
       </li>
     </ul>
   </nav>

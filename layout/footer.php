@@ -12,16 +12,16 @@
     <div class="contacts">
       <div>
         <h3 data-aos="zoom-in" data-aos-duration="2000">Address</h3>
-        <p>Kantanta Street</p>
-        <p>Kitwe</p>
+        <p>Plot 397a</p>
+        <p>Along Kafue Road</p>
+        <p>Makeni, Lusaka</p>
         <p>Zambia</p>
       </div>
       
       
-      
     <div class="web">
         <div data-aos-offset="0" data-aos="slide-right" data-aos-delay="2000">
-          <a href="#">support@cflegalzm.com</a>
+          <a href="#">lienerzambia.com</a>
         </div>
       
       </div>

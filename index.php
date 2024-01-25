@@ -54,6 +54,22 @@ if (isset($_POST['contact'])) {
 
 }
 
+$product_categories = [
+  'Waterproofing',
+  'Building finishes',
+  'Civil Engineering',
+  'Concrete solutions',
+  'Concrete protection',
+  'Concrete reinforcing',
+  'Concrete repair',
+  'Floor solutions',
+  'Grouting',
+  'Masonry',
+  'Sealants', 
+  'Tiling'
+];
+
+asort($product_categories);
 
 
 $page_title = 'Liener investments';
@@ -71,15 +87,16 @@ require_once __DIR__ . '/layout/header.php';
   <header class="social">
     <div class="container">
       <div class="logo">
-        <!-- <img src="images/logo.webp" alt="Liener company logo"> -->
+        <img src="images/logo.webp" alt="company logo" loading="lazy">
         <h3>Liener investments</h3>
       </div>
 
-      <nav class="nav">
+      <!-- <nav class="nav">
         <ul>
           <li><a href="#">Sika</a></li>
         </ul>
-      </nav>
+      </nav> -->
+
       <div class="icons">
         <a href="#"><img src="images/icon_facebook.png" alt="facebook url"></a>
         <a href="#"><img src="images/icon_instagram.webp" alt="facebook url"></a>
@@ -89,7 +106,7 @@ require_once __DIR__ . '/layout/header.php';
   </header>
 
 
-  <!-- <?php require_once __DIR__ . '/layout/nav_front.php'; ?> -->
+  <?php require_once __DIR__ . '/layout/nav_front.php'; ?>
   
 
   <main>
@@ -146,8 +163,13 @@ require_once __DIR__ . '/layout/header.php';
     </section>
     
 
-    <section class="index__about">
-      <img src="images/logo.webp" alt="">
+    <section class="index__products">
+      <h2>Our products</h2>
+
+      <div class="wrapper">
+        <img src="images/index_products.webp" alt="">
+        <div data-aos="fade-down" data-aos-duration="2000" class="box"></div>
+      </div>
     </section>
 
 
