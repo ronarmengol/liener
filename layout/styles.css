@@ -570,7 +570,7 @@ body {
     font-family: 'Azonix';
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   > .wrapper {
@@ -604,7 +604,7 @@ body {
 
 }
 
-.services {
+.index__services {
   width: 100%;
   padding: 100px 0;
   background: url('../images/index_services_1280.webp');
@@ -655,17 +655,15 @@ body {
     border-right: 20px solid #f9c402;
     border-right: 20px solid black;
     border-right: 20px solid var(--primary);
-
+    
     @media screen and (width < 800px) {
-
-  
-        border-right: none;
-        max-width: 350px;
-        
-        & > .list {
-          flex-direction: column;
-        }
+      border-right: 10px solid var(--primary);
+      max-width: 350px;
+      
+      & > .list {
+        flex-direction: column;
       }
+    }
 
 
     > h2 {
@@ -699,6 +697,39 @@ body {
           font-weight: 400;
         }
       }
+    }
+  }
+}
+
+.index__distributor {
+  padding: 50px 20px;
+  > h2 {
+    text-align: center;
+    font-family: 'Azonix', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  > p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+  }
+
+  > .wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+
+    > .sika {
+      /* width: 50px; */
+      height: 80px;
+    } 
+
+    > .verni {
+      height: 60px;
     }
   }
 }

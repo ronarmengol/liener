@@ -173,7 +173,7 @@ require_once __DIR__ . '/layout/header.php';
     </section>
 
 
-    <section class="services">
+    <section class="index__services">
       <div data-aos="fade-right" data-aos-duration="1500" class="box"></div>
       <div class="wrapper">
       <h2>Some of our services</h2>
@@ -191,8 +191,13 @@ require_once __DIR__ . '/layout/header.php';
     </section>
 
 
-    <section class="distributor">
-      
+    <section class="index__distributor">
+      <h2>OFFICIAL DISTRIBUTORS</h2>
+      <p>Authorized dealers for Sika and Verni</p>
+      <div class="wrapper">
+        <img class="sika" src="images/logo_sika.webp" alt="">
+        <img class="verni" src="images/logo_verni.webp" alt="">
+      </div>
     </section>
 
 
