@@ -59,8 +59,8 @@ $product_categories = [
   'Building finishes',
   'Civil Engineering',
   'Concrete solutions',
-  'Concrete protection',
-  'Concrete reinforcing',
+  'Roofing solutions',
+  'Adhesives',
   'Concrete repair',
   'Floor solutions',
   'Grouting',
@@ -171,6 +171,32 @@ require_once __DIR__ . '/layout/header.php';
         <div data-aos="fade-down" data-aos-duration="2000" class="box"></div>
       </div>
     </section>
+
+
+    <section class="services">
+      <div data-aos="fade-right" data-aos-duration="1500" class="box"></div>
+      <div class="wrapper">
+      <h2>Some of our services</h2>
+        <div class="list">
+
+          <?php foreach($product_categories as $product): ?>
+            <div class="product">
+              <img src="images/cogwheel_outline_sm.webp" alt="cogwheel bullet icon">
+              <p><?php echo htmlspecialchars($product); ?></p>
+            </div>
+            <?php endforeach; ?>
+
+        </div>
+      </div>  
+    </section>
+
+
+    <section class="distributor">
+      
+    </section>
+
+
+
 
 
     
