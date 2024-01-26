@@ -119,7 +119,7 @@ require_once __DIR__ . '/layout/header.php';
           <div class="swiper-slide">
             <img srcset="images/index_hero_const1-1280.webp 1280w, images/index_hero_const1-640.webp 800w"
                   src="images/index_hero_const1-640.webp"
-                  alt="insurance" >
+                  alt="construction planning" >
             <div class="swiper-slide-content">
               <div class="swiper-slide-text">
 
@@ -132,7 +132,7 @@ require_once __DIR__ . '/layout/header.php';
         <div class="swiper-slide">
           <img  srcset="images/index_hero_const2-1280.webp 1280w, images/index_hero_const2-640.webp 800w"
                 src="images/index_hero_const2-640.webp"
-                alt="insurance" >
+                alt="construction planning" >
           <div class="swiper-slide-content">
             <div class="swiper-slide-text">
 
@@ -145,7 +145,7 @@ require_once __DIR__ . '/layout/header.php';
         <div class="swiper-slide">
         <img  srcset="images/index_hero_const3-1280.webp 1280w, images/index_hero_const3-640.webp 800w"
                 src="images/index_hero_const3-640.webp"
-                alt="insurance" >
+                alt="construction planning" >
           <div class="swiper-slide-content">
             <div class="swiper-slide-text">
 

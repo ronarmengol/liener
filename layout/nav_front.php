@@ -4,13 +4,13 @@
         <a href="index.php">Home</a>
       </li>
       <li>
-        <a href="#">Sika</a>
+        <a href="sika.php">Sika</a>
       </li>
       <li>
-        <a href="#">Verni</a>
+        <a href="verni.php">Verni</a>
       </li>
       <li>
-        <a href="#">Newsletter</a>
+        <a href="newsletter.php">Newsletter</a>
       </li>
     </ul>
   </nav>
