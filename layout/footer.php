@@ -6,7 +6,7 @@
 
     <div class="logo">
       <img data-aos="fade-down" data-aos-duration="3000" src="images/logo_white_bg.webp" alt="company logo" loading="lazy">
-      <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Proven Excellence, Trusted Advocacy."</h3>
+      <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Building tomorrow, Today."</h3>
     </div>
 
     <div class="contacts">

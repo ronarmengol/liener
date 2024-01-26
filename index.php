@@ -164,6 +164,7 @@ require_once __DIR__ . '/layout/header.php';
     
 
     <section class="index__products">
+      <div data-aos="fade-right" data-aos-mirror="true" data-aos-duration="1200" class="box"></div>
       <h2>Our products</h2>
 
       <div class="wrapper">
@@ -174,7 +175,7 @@ require_once __DIR__ . '/layout/header.php';
 
 
     <section class="index__services">
-      <div data-aos="fade-right" data-aos-duration="1500" class="box"></div>
+      <div data-aos="fade-right" data-aos-duration="1500" data-aos-mirror="true" class="box"></div>
       <div class="wrapper">
       <h2>Some of our services</h2>
         <div class="list">
@@ -192,11 +193,62 @@ require_once __DIR__ . '/layout/header.php';
 
 
     <section class="index__distributor">
+      <div data-aos="fade-right" data-aos-duration="1200" data-aos-mirror="true" class="triangle"></div>
       <h2>OFFICIAL DISTRIBUTORS</h2>
       <p>Authorized dealers for Sika and Verni</p>
       <div class="wrapper">
         <img class="sika" src="images/logo_sika.webp" alt="">
         <img class="verni" src="images/logo_verni.webp" alt="">
+      </div>
+    </section>
+
+
+    <section class="index__featured">
+      <div class="title">
+        <h2>FEATURED PRODUCTS</h2>
+      </div>
+      <div class="cards">
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in" src="sika_images/sikalastic-560.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Sikalastic 560</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+          <a href="#">info</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in"src="sika_images/sikalastic-560.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Sikalastic 560</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+          <a href="#">info</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in"src="sika_images/sikalastic-560.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Sikalastic 560</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+            <a href="#">info</a>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
