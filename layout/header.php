@@ -6,6 +6,7 @@ $page_title = $page_title ?? 'Liener ';
 
 $currentUrl = $_SERVER['REQUEST_URI'];
 
+$css = $css ?? 'layout/styles.css?v=1.11';
 
 
 ?>
@@ -20,13 +21,6 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 
     <!-- SEO -->
     <title><?php echo htmlspecialchars($page_title); ?></title>
-
-    
-
-    
-    
-    
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,6 +40,7 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 
 
 
+    <!-- <link rel="stylesheet" href="<?php echo htmlspecialchars($css); ?>"> -->
     <link rel="stylesheet" href="layout/styles.css?v=1.11">
 
 

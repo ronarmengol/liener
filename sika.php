@@ -56,11 +56,14 @@ require_once __DIR__ . '/layout/header.php';
     </section>
 
     <section class="sika__content">
+      <div class="title">
+        <h2>CHOOSE CATEGORY</h2>
+      </div>
 
       <div class="cards">
-        <div class="card">
-  
-        </div>
+        <a class="card" href="sika/construction.php">Construction</a>
+        <a class="card" href="sika/industry.php">Industry</a>
+        <a class="card" href="sika/home-improvement.php">Home improvement</a>
       </div>
 
     </section>
