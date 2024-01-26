@@ -248,17 +248,76 @@ require_once __DIR__ . '/layout/header.php';
           </div>
         </div>
 
+      </div>
+    </section>
+
+
+    <section class="index__temp">
+      <img src="images/logo.webp" alt="">
+      <div class="text">
+
+        <h3>When in Doubt, Reinforce.</h3>
+        <p>Take extra precautions and strengthening structures when uncertainties arise</p>
+      </div>
+    </section>
+
+
+    <section class="index__newsletter">
+    <div class="title">
+        <h2>NEWSLETTER</h2>
+      </div>
+      <div class="cards">
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in" src="newsletter_images/waterproofing.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Waterproofing</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+          <a href="#">more</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in" src="newsletter_images/waterproofing.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Waterproofing</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+          <a href="#">more</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img data-aos="zoom-in" src="newsletter_images/waterproofing.webp" alt="">
+          </div>
+          <div class="text">
+            <h3>Waterproofing</h3>
+            <p>Economical liquid applied roof waterproofing solution based on Sika Co-Elastic Technology (CET)</p>
+          </div>
+          <div class="button">
+          <a href="#">more</a>
+          </div>
+        </div>
+
 
       </div>
     </section>
 
 
 
-
-
     
 
   </main>
+
+  
 
 </div> 
 
