@@ -212,19 +212,63 @@ body {
   background-attachment: fixed;
   padding: 50px 20px 100px;
   position: relative;
+  overflow-x: hidden;
    
+  
 
   > h2 {
-    text-align: center;
     font-family: Azonix;
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 1);
     letter-spacing: 2px;
     font-size: 2rem;
     font-weight: 400;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+
+  }
+  @media screen and (width < 500px) {
+    > .top,
+    > .bottom {
+      display: none;
+    }
+  }
+
+  > .top {
+    background-color: var(--orange);
+    position: absolute;
+    width: 450px;
+    height: 4px;
+    top: 40px;
+    left: calc(50% - 225px);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+  > .bottom {
+    background-color: var(--orange);
+    position: absolute;
+    width: 450px;
+    height: 4px;
+    top: 87px;
+    left: calc(50% - 225px);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
   }
   
   > .main {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     /* align-items: flex-start; */
@@ -573,17 +617,18 @@ body {
   > .box {
     position: absolute;
     z-index: -1;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: #f9c30279;
     background-color: #f9c302;
-    top: 63px;
-    left: calc(50% + 75px);
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+    top: 53px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    left: calc(50% - 165px);
+    transform: rotateX(40deg) translateX(-50%);
+    -webkit-transform: rotateX(40deg) translateX(-50%);
+    -moz-transform: rotateX(40deg) translateX(-50%);
+    -ms-transform: rotateX(40deg) translateX(-50%);
+    -o-transform: rotateX(40deg) translateX(-50%);
 }
 
   > .wrapper {
@@ -873,7 +918,56 @@ body {
 
 
 .index__temp {
-  padding: 10px 20px;
+  padding: 10px 20px 50px;
+  position: relative;
+  overflow-x: hidden;
+
+  > .triangle1 {
+    position: absolute;
+    top: 55px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--orange);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    left: calc(50% + 140px);
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  > .triangle2 {
+    position: absolute;
+    bottom: 55px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary);
+    left: calc(50% + 170px);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  > .box {
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    height: 10px;
+    background-color: var(--primary);
+    left: calc(50% - 200px);
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
   > img {
     display: block;
     margin: auto;
@@ -882,12 +976,14 @@ body {
   }
 
   > .text {
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
 
     > h3 {
       text-align: center;
     }
+
+    
   }
 }
 
@@ -899,6 +995,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
   /* border-top: 1px solid grey; */
   

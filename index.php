@@ -106,7 +106,7 @@ require_once __DIR__ . '/layout/header.php';
   </header>
 
 
-  <?php require_once __DIR__ . '/layout/nav_front.php'; ?>
+  <?php require __DIR__ . '/layout/nav_front.php'; ?>
   
 
   <main>
@@ -164,7 +164,7 @@ require_once __DIR__ . '/layout/header.php';
     
 
     <section class="index__products">
-      <div data-aos="fade-right" data-aos-mirror="true" data-aos-duration="1200" class="box"></div>
+      <div data-aos="fade-left" data-aos-mirror="true" data-aos-duration="1200" class="box"></div>
       <h2>Our products</h2>
 
       <div class="wrapper">
@@ -253,12 +253,15 @@ require_once __DIR__ . '/layout/header.php';
 
 
     <section class="index__temp">
-      <img src="images/logo.webp" alt="">
+      <div data-aos="fade-left" data-aos-duration="1200" data-aos-mirror="true" class="triangle1"></div>
+      <div data-aos="fade-left" data-aos-duration="1200" data-aos-mirror="true"class="triangle2" data-aos-delay="300"></div>
+      <img src="images/logo.webp" alt="liener company logo" loading="lazy">
       <div class="text">
 
         <h3>When in Doubt, Reinforce.</h3>
         <p>Take extra precautions and strengthening structures when uncertainties arise</p>
       </div>
+      <div data-aos="fade-left" class="box"></div>
     </section>
 
 
@@ -317,6 +320,7 @@ require_once __DIR__ . '/layout/header.php';
 
   </main>
 
+  <?php require __DIR__ . '/layout/nav_front.php'; ?>
   
 
 </div> 
@@ -324,6 +328,7 @@ require_once __DIR__ . '/layout/header.php';
 <?php
   require_once __DIR__ . '/layout/footer.php';
 ?> 
+
 
 <script>
 

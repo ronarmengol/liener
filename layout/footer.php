@@ -1,6 +1,8 @@
 <footer class="footer">
 
+  <div data-aos="fade-right" data-aos-duration="2000" class="top"></div>
   <h2>LIENER INVESTMENTS</h2>
+  <div data-aos="fade-left" data-aos-duration="2000" class="bottom"></div>
 
   <div class="main">
 
