@@ -95,8 +95,8 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 
   <main>
     <section class="sika__hero">
-      <img srcset="../../../images/index_hero_const1-1280.webp 1280w, images/index_hero_const1-640.webp 800w"
-                src="images/index_hero_const1-640.webp"
+      <img srcset="../../../images/index_hero_const1-1280.webp 1280w, ../../../images/index_hero_const1-640.webp 800w"
+                src="../../../images/index_hero_const1-640.webp"
                 alt="construction planning" >
     </section>
     
@@ -114,14 +114,14 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 
       <div class="cards">
         <a class="card" href="ready-mixed/plasticizers.php">Sika Water Reducers / Plasticizers</a>
-        <a class="card" href="#">Set Retarding Admixtures</a>
-        <a class="card" href="#">Viscosity Modifying Admixtures</a>
-        <a class="card" href="#">Air Entraining Admixtures</a>
-        <a class="card" href="#">Shrinkage Reducing Admixtures</a>
-        <a class="card" href="#">Corrosion Inhibiting Admixtures</a>
-        <a class="card" href="#">Sika Waterproofing Admixtures</a>
-        <a class="card" href="#">Sika Concrete Fibers</a>
-        <a class="card" href="#">Sika Concrete Release Agents</a>
+        <a class="card" href="ready-mixed/retarding-admixtures.php">Set Retarding Admixtures</a>
+        <a class="card" href="ready-mixed/viscosity-admixtures.php">Viscosity Modifying Admixtures</a>
+        <a class="card" href="ready-mixed/air-admixtures.php">Air Entraining Admixtures</a>
+        <a class="card" href="ready-mixed/shrinkage-admixures.php">Shrinkage Reducing Admixtures</a>
+        <a class="card" href="ready-mixed/corrosion-admixtures.php">Corrosion Inhibiting Admixtures</a>
+        <a class="card" href="ready-mixed/waterproofing-admixtures.php">Sika Waterproofing Admixtures</a>
+        <a class="card" href="ready-mixed/concrete-fibers.php">Sika Concrete Fibers</a>
+        <a class="card" href="ready-mixed/release-agents.php">Sika Concrete Release Agents</a>
       </div>
 
     </section>

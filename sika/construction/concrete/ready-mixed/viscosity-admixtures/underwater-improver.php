@@ -40,11 +40,11 @@ $currentUrl = $_SERVER['REQUEST_URI'];
     
     <!-- <link rel="stylesheet" href="layout/izmir.css"> -->
     
-    <link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon">
 
 
 
-    <link rel="stylesheet" href="../../../../layout/styles.css?v=1.11">
+    <link rel="stylesheet" href="../../../../../layout/styles.css?v=1.11">
 
 </head>
 <body>
@@ -62,14 +62,14 @@ $currentUrl = $_SERVER['REQUEST_URI'];
   <header class="social">
     <div class="container">
       <div class="logo">
-        <img src="../../../../images/logo.webp" alt="company logo" loading="lazy">
+        <img src="../../../../../images/logo.webp" alt="company logo" loading="lazy">
         <h3>Liener investments</h3>
       </div>
 
 
       <div class="icons">
-        <a href="#"><img src="../../../../images/icon_facebook.png" alt="facebook url"></a>
-        <a href="#"><img src="../../../../images/icon_instagram.webp" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_facebook.png" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_instagram.webp" alt="facebook url"></a>
       </div>
     </div>
 
@@ -79,24 +79,24 @@ $currentUrl = $_SERVER['REQUEST_URI'];
   <nav class="nav__main">
     <ul>
       <li>
-        <a href="../../../../index.php">Home</a>
+        <a href="../../../../../index.php">Home</a>
       </li>
       <li>
-        <a href="../../../../sika.php">Sika</a>
+        <a href="../../../../../sika.php">Sika</a>
       </li>
       <li>
-        <a href="../../../../verni.php">Verni</a>
+        <a href="../../../../../verni.php">Verni</a>
       </li>
       <li>
-        <a href="../../../../newsletter.php">Newsletter</a>
+        <a href="../../../../../newsletter.php">Newsletter</a>
       </li>
     </ul>
   </nav>
 
   <main>
     <section class="sika__hero">
-      <img srcset="../../../../images/index_hero_const1-1280.webp 1280w, ../../../../images/index_hero_const1-640.webp 800w"
-                src="../../../../images/index_hero_const1-640.webp"
+      <img srcset="../../../../../images/index_hero_const1-1280.webp 1280w, ../../../../../images/index_hero_const1-640.webp 800w"
+                src="../../../../../images/index_hero_const1-640.webp"
                 alt="construction planning" >
     </section>
     
@@ -105,9 +105,9 @@ $currentUrl = $_SERVER['REQUEST_URI'];
     </section>
 
     <section class="sika__content">
-      <a href="../ready-mixed-site-batched-concrete.php">Ready mixed batched concrete</a>
+      <a href="../viscosity-admixtures.php">Viscosity Modifying Admixtures</a>
       <div class="title">
-        <h2>SET RETARDING ADMIXTURES</h2>
+        <h2>UNDERWATER CONCRETE COHESION IMPROVER</h2>
       </div>
 
       
@@ -115,28 +115,12 @@ $currentUrl = $_SERVER['REQUEST_URI'];
       <div class="cards">
         <a class="card" href="#">
           <div class="description">
-            <h4>SikaTard&#174-930</h4>
-            <p>Cement hydration stabiliser</p>
+            <h4>Sika&#174 UCS-01 ZA</h4>
+            <p>Stabilizer for Concrete and Grouts</p>
           </div>
         </a>
-        <a class="card" href="#">
-          <div class="description">
-            <h4>Sika&#174 Retarder liquid</h4>
-            <p>Set retarding admixture</p>
-          </div>
-        </a>
-        <a class="card" href="#">
-          <div class="description">
-            <h4>SikaTard&#174 R ZA</h4>
-            <p>Set Retarding / stabilising admixture</p>
-          </div>
-        </a>
-        <a class="card" href="#">
-          <div class="description">
-            <h4>Sika&#174 Plastiment&#174 RCC-M</h4>
-            <p>Set-retarding admixture for roller compacted concrete</p>
-          </div>
-        </a>
+
+       
       </div>
 
     </section>
@@ -159,7 +143,7 @@ $currentUrl = $_SERVER['REQUEST_URI'];
   <div class="main">
 
     <div class="logo">
-      <img data-aos="fade-down" data-aos-duration="3000" src="../../../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
+      <img data-aos="fade-down" data-aos-duration="3000" src="../../../../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
       <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Building tomorrow, Today."</h3>
     </div>
 

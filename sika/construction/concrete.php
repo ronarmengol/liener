@@ -104,8 +104,8 @@ $css = $css ?? 'layout/styles.css?v=1.11';
 
   <main>
     <section class="sika__hero">
-      <img srcset="../../images/index_hero_const1-1280.webp 1280w, images/index_hero_const1-640.webp 800w"
-                src="images/index_hero_const1-640.webp"
+      <img srcset="../../images/index_hero_const1-1280.webp 1280w, ../../images/index_hero_const1-640.webp 800w"
+                src="../../images/index_hero_const1-640.webp"
                 alt="construction planning" >
     </section>
     
