@@ -6,15 +6,11 @@ session_start();
 // session_destroy();
 
 
-$page_title = 'Liener investments || sika - construction - concrete';
-
-
-$page_title = $page_title ?? 'Liener ';
+$page_title = 'Liener investments - sika - construction - concrete - ready mixed site batched concrete';
 
 
 $currentUrl = $_SERVER['REQUEST_URI'];
 
-$css = $css ?? 'layout/styles.css?v=1.11';
 
 
 ?>
@@ -44,16 +40,11 @@ $css = $css ?? 'layout/styles.css?v=1.11';
     
     <!-- <link rel="stylesheet" href="layout/izmir.css"> -->
     
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon">
 
 
 
-    <link rel="stylesheet" href="../../layout/styles.css?v=1.11">
-
-
-
-  
-
+    <link rel="stylesheet" href="../../../../../layout/styles.css?v=1.11">
 
 </head>
 <body>
@@ -71,14 +62,14 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <header class="social">
     <div class="container">
       <div class="logo">
-        <img src="../../images/logo.webp" alt="company logo" loading="lazy">
+        <img src="../../../../../images/logo.webp" alt="company logo" loading="lazy">
         <h3>Liener investments</h3>
       </div>
 
 
       <div class="icons">
-        <a href="#"><img src="../../images/icon_facebook.png" alt="facebook url"></a>
-        <a href="#"><img src="../../images/icon_instagram.webp" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_facebook.png" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_instagram.webp" alt="facebook url"></a>
       </div>
     </div>
 
@@ -88,24 +79,24 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <nav class="nav__main">
     <ul>
       <li>
-        <a href="../../index.php">Home</a>
+        <a href="../../../../../index.php">Home</a>
       </li>
       <li>
-        <a href="../../sika.php">Sika</a>
+        <a href="../../../../../sika.php">Sika</a>
       </li>
       <li>
-        <a href="../../verni.php">Verni</a>
+        <a href="../../../../../verni.php">Verni</a>
       </li>
       <li>
-        <a href="../../newsletter.php">Newsletter</a>
+        <a href="../../../../../newsletter.php">Newsletter</a>
       </li>
     </ul>
   </nav>
 
   <main>
     <section class="sika__hero">
-      <img srcset="../../images/index_hero_const1-1280.webp 1280w, ../../images/index_hero_const1-640.webp 800w"
-                src="../../images/index_hero_const1-640.webp"
+      <img srcset="../../../../../images/index_hero_const1-1280.webp 1280w, ../../../../../images/index_hero_const1-640.webp 800w"
+                src="../../../../../images/index_hero_const1-640.webp"
                 alt="construction planning" >
     </section>
     
@@ -114,22 +105,27 @@ $css = $css ?? 'layout/styles.css?v=1.11';
     </section>
 
     <section class="sika__content">
-      <a href="../construction.php">Construction</a>
+      <a href="../fibers.php">Sika Concrete Fibers</a>
       <div class="title">
-        <h2>CONCRETE</h2>
+        <h2>MICRO POLYPROPYLENE FIBER</h2>
       </div>
 
       
 
       <div class="cards">
-        <a class="card" href="concrete/ready-mixed-site-batched-concrete.php">Ready Mixed / Site Batched Concrete</a>
-        <a class="card" href="concrete/precast-concrete.php">Precast Concrete</a>
-        <a class="card" href="concrete/concrete-concepts.php">Concrete Concepts</a>
-        <a class="card" href="concrete/cement-additives.php">Cement Additives</a>
-        <a class="card" href="concrete/gypsum.php">Gypsum</a>
-        <a class="card" href="concrete/gypsum.php">Durability / Curing</a>
-        <a class="card" href="concrete/powder-plasticizers.php">Powder Superplasticizers</a>
-        <a class="card" href="concrete/concrete-workability-retention.php">Long Concrete Workability Retention</a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174-618 PPM ZA</h4>
+            <p>Polypropylene microfibers for concrete and mortars</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174 PPM-12</h4>
+            <p>Polypropylene microfibers for concrete and mortars</p>
+          </div>
+        </a>
+       
       </div>
 
     </section>
@@ -152,7 +148,7 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <div class="main">
 
     <div class="logo">
-      <img data-aos="fade-down" data-aos-duration="3000" src="../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
+      <img data-aos="fade-down" data-aos-duration="3000" src="../../../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
       <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Building tomorrow, Today."</h3>
     </div>
 
