@@ -116,7 +116,7 @@ $currentUrl = $_SERVER['REQUEST_URI'];
         <a class="card" href="#">
           <div class="description">
 
-            <h4>Sika Plastiment BV-40</h4>
+            <h4>Sika&#174 Plastiment BV-40</h4>
             <p>Water reducing admixture for concrete</p>
           </div>
         </a>

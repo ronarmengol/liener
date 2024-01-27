@@ -114,10 +114,10 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 
       <div class="cards">
         <a class="card" href="plasticizers/water-reducers.php">Water Reducers</a>
-        <a class="card" href="#">Mid Range Water Reducers</a>
-        <a class="card" href="#">High Renge Water Reducers</a>
-        <a class="card" href="#">High Range Water Reducers(Powder)</a>
-        <a class="card" href="#">Extended Workability / Water Reducers</a>
+        <a class="card" href="plasticizers/mid-range.php">Mid Range Water Reducers</a>
+        <a class="card" href="plasticizers/high-range.php">High Range Water Reducers</a>
+        <a class="card" href="plasticizers/high-range-powder.php">High Range Water Reducers(Powder)</a>
+        <a class="card" href="plasticizers/workability.php">Extended Workability / Water Reducers</a>
       </div>
 
     </section>

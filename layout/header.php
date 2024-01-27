@@ -40,8 +40,7 @@ $css = $css ?? 'layout/styles.css?v=1.11';
 
 
 
-    <!-- <link rel="stylesheet" href="<?php echo htmlspecialchars($css); ?>"> -->
-    <link rel="stylesheet" href="layout/styles.css?v=1.11">
+    <link rel="stylesheet" href="layout/styles.css?v=1.12">
 
 
 
