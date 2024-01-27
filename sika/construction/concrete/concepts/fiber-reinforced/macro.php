@@ -44,11 +44,11 @@ $css = $css ?? 'layout/styles.css?v=1.11';
     
     <!-- <link rel="stylesheet" href="layout/izmir.css"> -->
     
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon">
 
 
 
-    <link rel="stylesheet" href="../../../layout/styles.css?v=1.11">
+    <link rel="stylesheet" href="../../../../../layout/styles.css?v=1.11">
 
 
 
@@ -71,14 +71,14 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <header class="social">
     <div class="container">
       <div class="logo">
-        <img src="../../../images/logo.webp" alt="company logo" loading="lazy">
+        <img src="../../../../../images/logo.webp" alt="company logo" loading="lazy">
         <h3>Liener investments</h3>
       </div>
 
 
       <div class="icons">
-        <a href="#"><img src="../../../images/icon_facebook.png" alt="facebook url"></a>
-        <a href="#"><img src="../../../images/icon_instagram.webp" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_facebook.png" alt="facebook url"></a>
+        <a href="#"><img src="../../../../../images/icon_instagram.webp" alt="facebook url"></a>
       </div>
     </div>
 
@@ -88,24 +88,24 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <nav class="nav__main">
     <ul>
       <li>
-        <a href="../../../index.php">Home</a>
+        <a href="../../../../../index.php">Home</a>
       </li>
       <li>
-        <a href="../../../sika.php">Sika</a>
+        <a href="../../../../../sika.php">Sika</a>
       </li>
       <li>
-        <a href="../../../verni.php">Verni</a>
+        <a href="../../../../../verni.php">Verni</a>
       </li>
       <li>
-        <a href="../../../newsletter.php">Newsletter</a>
+        <a href="../../../../../newsletter.php">Newsletter</a>
       </li>
     </ul>
   </nav>
 
   <main>
     <section class="sika__hero">
-      <img srcset="../../../images/index_hero_const1-1280.webp 1280w, ../../../images/index_hero_const1-640.webp 800w"
-                src="../../../images/index_hero_const1-640.webp"
+      <img srcset="../../../../../images/index_hero_const1-1280.webp 1280w, ../../../../../images/index_hero_const1-640.webp 800w"
+                src="../../../../../images/index_hero_const1-640.webp"
                 alt="construction planning" >
     </section>
     
@@ -114,30 +114,49 @@ $css = $css ?? 'layout/styles.css?v=1.11';
     </section>
 
     <section class="sika__content">
-      <a href="../construction.php">Construction</a>
+      <a href="../fiber-reinforced.php">Sika fiber reinforced concrete</a>
       <div class="title">
-        <h2>CONCRETE CONCEPTS</h2>
+        <h2>MACRO STRUCTURAL SYNTHETIC POLYPROPYLENE FIBER</h2>
       </div>
+
+
 
       
 
       <div class="cards">
-        <a class="card" href="concepts/hot-weather.php">Sika Hot Weather Concrete / Retarding</a>
-        <a class="card" href="concepts/underwater.php">Sika Underwater Concrete</a>
-        <a class="card" href="concepts/fiber-reinforced.php">Sika Fiber Reinforced Concrete</a>
-        <a class="card" href="concepts/watertight.php">Sika Watertight Concrete</a>
-        <a class="card" href="concepts/self-compacting.php">Sika Self-Compacting Concrete</a>
-        <a class="card" href="concepts/pumped.php">Sika Pumped Concrete</a>
-        <a class="card" href="concepts/piled.php">Sika Piled Concrete</a>
-        <a class="card" href="concepts/workability.php">Sika Extended Workability Concrete</a>
-        <a class="card" href="concepts/mortars.php">Sika Mortars</a>
-        <a class="card" href="concepts/sprayed.php">Sika Sprayed Concrete</a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174-408 X</h4>
+            <p>Structural Synthetic polypropylene Macro Fibers</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174-658</h4>
+            <p>Structural Synthetic polypropylene Macro Fibers</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174-30/55 F-HE</h4>
+            <p>Steel Fiber for concrete</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="description">
+            <h4>SikaFiber&#174-6090 F-HE</h4>
+            <p>Steel Fiber for concrete</p>
+          </div>
+        </a>
+       
+      
       </div>
 
     </section>
 
 
     
+
 
   </main>
 
@@ -154,7 +173,7 @@ $css = $css ?? 'layout/styles.css?v=1.11';
   <div class="main">
 
     <div class="logo">
-      <img data-aos="fade-down" data-aos-duration="3000" src="../../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
+      <img data-aos="fade-down" data-aos-duration="3000" src="../../../../../images/logo_white_bg.webp" alt="company logo" loading="lazy">
       <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">"Building tomorrow, Today."</h3>
     </div>
 
